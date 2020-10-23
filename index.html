@@ -1,0 +1,50 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<title>Word Counter</title>
+  	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<div class="container">
+	<div class="content">
+	  	<div class="row" style="margin-top: -20px; border: 1px solid #DDD;
+    background-color: #F9F9F9;">
+	  		<center>
+	  			<h1>Word Counter</h1>
+	  		</center>
+		</div>
+		<div class="row" style="margin-top: 50px;">
+		  	<div id="left"><h4>Total number of words you want?  <span><input id="total" type="number"></span></h4></div>
+		  	<div id="right"><span> Reset  </span><button id="db" class="btn btn-default">X</button></div>
+		 </div>
+		<div class="row">
+		  	<div class="col-xs-12">
+		  		<textarea id="inp"  placeholder="Enter your text here..."></textarea>
+		  	</div>
+	  	</div>
+		  
+		  <div class="row">
+		  	<div class="output col-xs-12">
+		    	<h2>Words left: <span id="cout">0</span></h2>
+		  	</div>
+		  </div>
+		  <div class="row">
+		  	<div class="output col-xs-12">
+		    	<h2>Words: <span id="count">0</span></h2>
+		  	</div>
+		  </div>
+	</div>
+</div>
+  <script src="main.js"></script>
+
+</body>
+</html>
